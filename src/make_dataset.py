@@ -42,7 +42,7 @@ def make_dataset(raw_path: Path, out_path: Path) -> None:
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser("Preprocess ULB credit‑card dataset")
+    parser = argparse.ArgumentParser("Preprocess ULB credit-card dataset")
     parser.add_argument("--input", default=str(DEFAULT_RAW), help="raw CSV path")
     parser.add_argument("--output", default=str(DEFAULT_OUT), help="output parquet path")
     args = parser.parse_args()
